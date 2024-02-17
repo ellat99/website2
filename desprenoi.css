@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 135px;
+}
+
+.full-story {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.hero-section-despre-noi {
+  display: flex;
+  align-items: center;
+
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 87px;
+  margin-bottom: 150px;
+  margin-top: 135px;
+}
+.hero {
+  margin-top: 40px;
+}
+.desprenoi-paragraf {
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buttons-flag-desprenoi {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-despre-noi video {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  ul.links {
+    text-align: center; /* Centrare pentru ecrane mici */
+  }
+
+  ul.links li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  ul.links li a {
+    display: block;
+    width: 100%;
+  }
+}

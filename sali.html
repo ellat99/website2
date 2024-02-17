@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sali Fitness/Sport</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img class="logo" src="./images/Logo (1).png"><a href="#"></a></img>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./produse.html">Produse</a></li>
+          <li><a href="./desprenoi.html">Despre noi</a></li>
+          <li><a href="./index.html#contact-section">Contact</a></li>
+          <li class="mobile-only">
+            <div class="fleg-mobil">
+                <img id="flag-ro-mobil" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                <span  class="flag-bar">/</span>
+                <img id="flag-en-mobil" src="./images/Rectangle 30.png" alt="fleg-e" data-lang="en" />
+            </div>
+</li>
+          
+        </ul>
+        <div class="buttons">
+          <img id="flag-ro" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+          <span class="flag-bar">/</span>
+          <img
+              id="flag-en"
+              src="./images/Rectangle 30.png"
+              alt="fleg-e"
+              data-lang="en"
+          />
+      </div>
+
+      </nav>
+    </header>
+
+<section class="hero-section-transport">
+  <div class="transport">
+    <h3 style="margin-left:15px;">Sali Fitness/Sport</h3>
+    <span><img id="line-domenii-spa" style="width: 100px;
+      height: 2px; margin-bottom: 24px;"src="./images/Line 8.png"></span>
+  </div>
+</section>
+
+    <section class="hero-section">
+
+      
+      <div class="hero">
+        <img src="./images/articole/Rectangle 12 (6).png" alt="poza-1">
+        
+      </div>
+      
+    
+    </section>
+    <section class="hero-section-text">
+      <div class="hero">
+          <p>     Sălile de fitness, devenite adevărate sanctuare ale sănătății și bunăstării, nu sunt doar spații pentru exerciții, ci și locuri de relaxare și socializare, integrate cu eleganță în stilul de viață al oamenilor moderni. Cei care le frecventează, fie înainte sau după orele de muncă, caută nu doar o rutină de antrenament eficientă, ci și o atmosferă care să le ofere atât recreere, cât și o creștere a tonusului.
+            În această căutare de echilibru și vitalitate, mirosul devine un element cheie. Aromele potrivite pot stimula răspunsurile neurologice în organism, contribuind la îmbunătățirea performanței fizice și mentale. De exemplu, esența de mentă emană un efect de energizare și revitalizare, ideal pentru a însoți antrenamentele intense. Mirosul îmbietor de banană sau măr verde este recunoscut pentru capacitatea sa de a reduce poftele alimentare nesănătoase.
+            Și cum fiecare detaliu contează în călătoria către o stare optimă de sănătate, aromele precum căpșunile proaspete sau popcornul cu unt nu sunt doar plăcute olfactiv, ci contribuie și la procesul de ardere a caloriilor în sălile de fitness, aducând un plus de motivare și plăcere în timpul antrenamentelor.
+         
+           
+          </p>
+      </div>
+    </section>  
+    
+
+    <!--footer-->
+
+    <footer>
+       <img class="logo" src="./images/Logo (1).png" alt="Logo CasaParfumurilor"> 
+      <p class="footer-copy">&copy; 2024 CasaParfumurilor, Inc.</p>
+      <a style="text-decoration: none;" href="./cookie.html"><p class="footer-text">Politica de  cookie-uri</p></a>
+    </footer>
+
+
+    <script  >
+      document.getElementById("flag-ro").addEventListener("click", function () {
+     window.location.href = "./sali.html";
+   });
+   
+   document.getElementById("flag-en").addEventListener("click", function () {
+     window.location.href = "./versiunea-engleza/sali-engleza.html";
+   });
+     </script>
+     <script  >
+      document.getElementById("flag-ro-mobil").addEventListener("click", function () {
+     window.location.href = "./sali.html";
+   });
+   
+   document.getElementById("flag-en-mobil").addEventListener("click", function () {
+     window.location.href = "./versiunea-engleza/sali-engleza.html";
+   });
+     </script>
+   
+   
+
+  </body>
+</html>

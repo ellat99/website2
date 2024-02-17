@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="./index-engleza.html"> <img class="logo" src="../images/Logo (1).png"><a href="#"></a></img></a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="./index-engleza.html">Home</a></li>
+          <li><a href="./produse-engleza.html">Products</a></li>
+          <li><a href="./desprenoi-engleza.html">About us</a></li>
+          <li><a href="./index-engleza.html#contact-section">Contact</a></li>
+          <li class="mobile-only">
+            <div class="fleg-mobil">
+                <img id="flag-ro-mobil" src="../images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                <span  class="flag-bar">/</span>
+                <img id="flag-en-mobil" src="../images/Rectangle 30.png" alt="fleg-e" data-lang="en" />
+            </div>
+</li>
+          
+        </ul>
+        <div class="buttons">
+          <img id="flag-ro" src="../images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+          <span class="flag-bar">/</span>
+          <img
+              id="flag-en"
+              src="../images/Rectangle 30.png"
+              alt="fleg-e"
+              data-lang="en"
+          />
+      </div>
+
+      </nav>
+    </header>
+
+<section class="hero-section-transport">
+  <div class="transport">
+    <h3 style="margin-left:15px;" >Events</h3>
+    <span><img id="line-domenii-horeca"  src="../images/Line 8.png"
+      style="width: 60px;
+        height: 2px; margin-bottom: 24px;"></span>
+  </div>
+</section>
+
+    <section class="hero-section">
+
+      
+      <div class="hero">
+        <img src="../images/articole/Rectangle 12 (2).png" alt="poza-1">
+        
+      </div>
+      
+    
+    </section>
+    <section class="hero-section-text">
+      <div class="hero">
+          <p>       Often, people associate the scents of freshly baked pastries, Christmas trees, or orange peel with childhood Christmas events. This happens because scents evoke memories, which are then rationalized as positive or negative.          Thus, the scent travels from the nose to the olfactory bulbs through the cranial nerves, helping the brain process information. Ultimately, the olfactory bulbs access the amygdala, which plays a crucial role in storing emotional memories.
+            Choosing a fragrance helps us create a unique event that evokes strong emotions and has a lasting memorability. Whether it's weddings, baptisms, educational or promotional events, the scent contributes to forming the first impression of the occasion. If the fragrance is right, the positive impression will remain unchanged over time.
+         
+          </p>
+      </div>
+    </section>  
+    
+
+    <!--footer-->
+
+    <footer>
+       <img class="logo" src="../images/Logo (1).png" alt="Logo CasaParfumurilor"> 
+      <p class="footer-copy">&copy; 2024 CasaParfumurilor, Inc.</p>
+      <a style="text-decoration: none;" href="./cookie-engleza.html"><p class="footer-text">Politica de  cookie-uri</p></a>
+    </footer>
+    <script  >
+      document.getElementById("flag-ro").addEventListener("click", function () {
+     window.location.href = "../evenimente.html";
+   });
+   
+   document.getElementById("flag-en").addEventListener("click", function () {
+     window.location.href = "../versiunea-engleza/evenimente-engleza.html";
+   });
+     </script>
+       <script  >
+        document.getElementById("flag-ro-mobil").addEventListener("click", function () {
+       window.location.href = "../evenimente.html";
+     });
+     
+     document.getElementById("flag-en-mobil").addEventListener("click", function () {
+       window.location.href = "../versiunea-engleza/evenimente-engleza.html";
+     });
+       </script>
+  
+
+  </body>
+</html>

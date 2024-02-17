@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+hr {
+  width: 585.001px;
+  height: 0.5px;
+  margin-top: 30px;
+}
+
+button {
+  border: 1px solid #000;
+  background: #fff;
+  width: 188px;
+  height: 47px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Stiluri pentru secțiunea eroilor legată de transport */
+.transport-hero-section {
+  color: #000;
+  font-family: "Open Sans";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* Stiluri pentru secțiunea eroilor în general */
+.hero-section-container {
+  display: flex;
+  align-items: center;
+  /* height: 95vh; */
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Stiluri pentru textul din secțiunea eroilor */
+.hero-text-section {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 141px;
+}
+
+/* Stiluri pentru elementul cu clasa "hero" din secțiunea eroilor */
+.hero-section-container .hero {
+  color: #fff;
+  border: 0.5px solid #000;
+
+  box-shadow: 0px 8px 15.6px 1px rgba(0, 0, 0, 0.05);
+  width: 374px;
+  height: 472px;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Stiluri pentru titlul (h2) din secțiunea eroilor */
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Stiluri pentru paragraful (p) din secțiunea eroilor */
+.hero-paragraph {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #c9c7c7;
+}
+
+/* Stiluri pentru butoanele din secțiunea eroilor */
+.hero-section-container .hero-buttons {
+  margin-top: 40px;
+}
+
+/* Stiluri pentru link-urile din secțiunea eroilor */
+.hero-section-container .hero-buttons a {
+  text-decoration: none;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+  display: inline-block;
+}
+
+/* Stiluri pentru butoanele din secțiunea eroilor, mai puțin ultimul link */
+.hero-section-container .hero-buttons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+/* Stiluri specifice pentru butonul de învățare (learn) din secțiunea eroilor */
+.hero-section-container .hero-buttons .learn-button {
+  border: 1px solid #fff;
+  border-radius: 0.375rem;
+}
+
+/****************************************distanta dintre hero si img*/
+
+.hero-section-container .img {
+  margin-left: 137px;
+}
+/****read more******/
+.extra {
+  display: none;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  line-height: 2em;
+  display: inline;
+}
+input[type="checkbox"] {
+  height: 2em;
+  /* display: block; */
+  appearance: none;
+}
+label {
+  font-family: "Poppins", sans-serif;
+  padding: 1em;
+  color: #000;
+  cursor: pointer;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+label:before {
+  content: "More details  ";
+}
+
+input[type="checkbox"]:checked ~ label:before {
+  content: "";
+}
+
+.dots:has(~ input[type="checkbox"]:checked) {
+  display: none;
+}
+.extra:has(~ input[type="checkbox"]:checked) {
+  display: inline;
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.original,
+.dots {
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.parfum-ambient-paragraph {
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.incerc-ceva {
+  border-radius: 360px;
+  background: #98b892;
+  display: flex;
+  width: 157px;
+  height: 157px;
+  padding: 46px 15.105px 44.498px 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*******************************************ALTE PRODUSE**************************************************/
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.normal-image,
+.hover-image {
+  width: 157px;
+  height: 157px;
+  transition: opacity 0.3s ease; /* Adaugăm o tranziție pentru o schimbare lină */
+}
+
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.image-container:hover .normal-image {
+  opacity: 0; /* Facem imaginea normală invizibilă la hover */
+}
+
+.image-container:hover .hover-image {
+  opacity: 1; /* Facem imaginea la hover vizibilă */
+}
+
+/*h1-parfum-ambient*/
+.h1-parfum-ambient {
+  margin-bottom: 30px;
+}
+
+.button-cumpara-acum {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.domeniide-aplicare-paragraph {
+  color: #000;
+  font-family: "Source Sans Pro";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 78px;
+}
+
+.card-parfumuri {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 96px;
+  margin-bottom: 100px;
+}
+
+.text-footer {
+  text-align: center; /* Center the content horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*******************mobil*/
+@media screen and (max-width: 767px) {
+  .hero-image {
+    width: auto; /* Faceți imaginea să acopere întreaga lățime */
+  }
+  .hero-section-container .hero {
+    width: 100%; /* Faceți imaginea să acopere întreaga lățime a ecranului */
+    height: auto;
+    order: 2;
+  }
+  .hero-section-container {
+    flex-direction: column; /* Schimbă direcția de afișare pe coloană pe ecrane mici */
+    align-items: center;
+  }
+
+  .hero,
+  .img {
+    width: 100%; /* Lățimea completă a ecranului pentru elementele pe mobil */
+    margin-left: 0; /* Anulează margin-left pentru .img pe mobil */
+  }
+
+  .img {
+    order: 2; /* Schimbăm ordinea pentru a plasa div-ul "img" deasupra div-ului "hero" */
+  }
+  hr {
+    width: 100%;
+  }
+  .hero-section-container .img {
+    margin: 0 auto;
+  }
+
+  .card-parfumuri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 15px;
+  }
+
+  .image-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  #parfum-ambient {
+    width: 50%;
+    margin-top: 20px;
+  }
+  #parfumbaie {
+    width: 40%;
+    margin-top: 20px;
+  }
+  #detergetni-pardoseli {
+    width: 80%;
+    margin-top: 20px;
+  }
+  #odorizant {
+    width: 100%;
+
+    margin-top: 30px;
+  }
+  #parfum-baie {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .button-cumpara-acum {
+    margin-left: 50px;
+  }
+  .hero-section-container .img {
+    margin: 0 auto;
+  }
+  .hero-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

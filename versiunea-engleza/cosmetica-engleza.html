@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spa</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="./index-engleza.html"> <img class="logo" src="../images/Logo (1).png"><a href="#"></a></img></a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="./index-engleza.html">Home</a></li>
+          <li><a  href="./produse-engleza.html">Products</a></li>
+          <li><a href="./desprenoi-engleza.html">About us</a></li>
+          <li><a href="./index-engleza.html#contact-section">Contact</a></li>
+          <li class="mobile-only">
+            <div class="fleg-mobil">
+                <img id="flag-ro-mobil" src="../images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                <span  class="flag-bar">/</span>
+                <img id="flag-en-mobil" src="../images/Rectangle 30.png" alt="fleg-e" data-lang="en" />
+            </div>
+</li>
+          
+        </ul>
+        
+  <div class="buttons">
+    <img id="flag-ro" src="../images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+    <span class="flag-bar">/</span>
+    <img
+        id="flag-en"
+        src="../images/Rectangle 30.png"
+        alt="fleg-e"
+        data-lang="en"
+    />
+</div>
+
+      </nav>
+    </header>
+
+<section class="hero-section-transport">
+  <div class="transport">
+    <h3 style="margin-left:15px;" >Spa</h3>
+    <span><img id="line-domenii-spa"  style="width: 30px;
+        height: 2px; margin-bottom: 24px;" src="../images/Line 8.png"></span>
+  </div>
+</section>
+
+    <section class="hero-section">
+
+      
+      <div class="hero">
+        <img src="../images/articole/Rectangle 12 (5).png" alt="poza-1">
+        
+      </div>
+      
+    
+    </section>
+    <section class="hero-section-text">
+      <div class="hero">
+          <p>          In spaces dedicated to relaxation and indulgence, ambient fragrance becomes an essential element to enhance the customer experience. This refined detail adds a subtle note of freshness and harmony to the entire space, contributing to the creation of a relaxing atmosphere full of comfort.
+            Imagine stepping into a salon or spa and being greeted by a delicate aroma that instantly envelops your senses. Ambient fragrance has the power to transform the space into a sanctuary of relaxation, preparing your mind and body for rejuvenating treatments and moments of personal escape.
+            Carefully selected aromas not only mask potential unpleasant odors but also create a multisensory experience. Each inhalation becomes an olfactory journey, bringing a touch of elegance and refinement to the entire space. Thus, ambient fragrance becomes a reliable partner in providing a pleasant and distinctive atmosphere in any salon or spa, contributing to the creation of an unforgettable sensory memory for each client.
+            
+          </p>
+      </div>
+    </section>  
+    
+
+    <!--footer-->
+
+    <footer>
+       <img class="logo" src="../images/Logo (1).png" alt="Logo CasaParfumurilor"> 
+      <p class="footer-copy">&copy; 2024 CasaParfumurilor, Inc.</p>
+      <a style="text-decoration: none;" href="./cookie-engleza.html"><p class="footer-text">Politica de  cookie-uri</p></a>
+    </footer>
+    <script  >
+      document.getElementById("flag-ro").addEventListener("click", function () {
+     window.location.href = "../cosmetica.html";
+   });
+   
+   document.getElementById("flag-en").addEventListener("click", function () {
+     window.location.href = "../versiunea-engleza/cosmetica-engleza.html";
+   });
+     </script>
+      <script  >
+        document.getElementById("flag-ro-mobil").addEventListener("click", function () {
+       window.location.href = "../cosmetica.html";
+     });
+     
+     document.getElementById("flag-en-mobil").addEventListener("click", function () {
+       window.location.href = "../versiunea-engleza/cosmetica-engleza.html";
+     });
+       </script>
+
+  </body>
+</html>

@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanatate/Medical</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img class="logo" src="./images/Logo (1).png"><a href="#"></a></img>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+        <ul class="links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./produse.html">Produse</a></li>
+          <li><a href="./desprenoi.html">Despre noi</a></li>
+          <li><a href="./index.html#contact-section">Contact</a></li>
+          <li class="mobile-only">
+            <div class="fleg-mobil">
+                <img id="flag-ro-mobil" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                <span  class="flag-bar">/</span>
+                <img id="flag-en-mobil" src="./images/Rectangle 30.png" alt="fleg-e" data-lang="en" />
+            </div>
+</li>
+          
+        </ul>
+        <div class="buttons">
+          <img id="flag-ro" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+          <span class="flag-bar">/</span>
+          <img
+              id="flag-en"
+              src="./images/Rectangle 30.png"
+              alt="fleg-e"
+              data-lang="en"
+          />
+      </div>
+
+      </nav>
+    </header>
+
+<section class="hero-section-transport">
+  <div class="transport">
+    <h3 style="margin-left:15px;">Sanatate/Medical</h3>
+    <span><img id="line-domenii-sanatate" style="width: 103px;
+      height: 2px; margin-bottom: 24px;" src="./images/Line 8.png"></span>
+  </div>
+</section>
+
+    <section class="hero-section">
+
+      
+      <div class="hero">
+        <img src="./images/articole/Rectangle 12 (7).png" alt="poza-1">
+        
+      </div>
+      
+    
+    </section>
+    <section class="hero-section-text">
+      <div class="hero">
+          <p>        În mediul spitalicesc, unde confortul și buna dispoziție pot face o diferență semnificativă în experiența pacienților, parfumul ambiental devine un aliat esențial. Acest detaliu subtil, dar încărcat de semnificație, aduce o notă de prospețime și liniște în interiorul spațiului medical, contribuind la crearea unei ambianțe mai reconfortante și plăcute.
+            Fiecare esență olfactivă a parfumului ambiental a fost atent selectată pentru a oferi o senzație de curățenie și prospețime, contracarând eventualele mirosuri neplăcute specifice mediului spitalicesc. Astfel, pacienții și personalul medical beneficiază de un ambient mai plăcut și mai relaxant, ceea ce poate contribui la îmbunătățirea stării generale de bine.
+            Acest angajament pentru confort și atenție la detalii nu numai că sprijină experiența pacienților, ci și consolidează ideea că un mediu curat și plăcut poate influența pozitiv procesul de vindecare. Parfumul ambiental nu este doar un simplu aditiv, ci devine un element esențial în crearea unei atmosfere care promovează îngrijirea și recuperarea.
+         
+         
+          </p>
+      </div>
+    </section>  
+    
+
+    <!--footer-->
+
+    <footer>
+       <img class="logo" src="./images/Logo (1).png" alt="Logo CasaParfumurilor"> 
+      <p class="footer-copy">&copy; 2024 CasaParfumurilor, Inc.</p>
+      <a style="text-decoration: none;" href="./cookie.html"><p class="footer-text">Politica de  cookie-uri</p></a>
+    </footer>
+    <script  >
+      document.getElementById("flag-ro").addEventListener("click", function () {
+     window.location.href = "./sanatate.html";
+   });
+   
+   document.getElementById("flag-en").addEventListener("click", function () {
+     window.location.href = "../versiunea-engleza/sanatate-engleza.html";
+   });
+     </script>
+        <script  >
+          document.getElementById("flag-ro-mobil").addEventListener("click", function () {
+         window.location.href = "./sanatate.html";
+       });
+       
+       document.getElementById("flag-en-mobil").addEventListener("click", function () {
+         window.location.href = "./versiunea-engleza/sanatate-engleza.html";
+       });
+         </script>
+   
+
+  </body>
+</html>

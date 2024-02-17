@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horeca</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container-horeca">
+        <header class="header">
+            <nav class="navbar">
+                <a href="./index-engleza.html">  <img class="logo" src="./images/Logo (1).png"></img></a>
+               
+          
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" id="hamburger-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                        <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </label>
+                <ul class="links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produse.html">Produse</a></li>
+                    <li><a href="./desprenoi.html">Despre noi</a></li>
+                    <li><a href="./index.html#contact-section">Contact</a></li>
+                    <li class="mobile-only">
+                        <div class="fleg-mobil">
+                            <img id="flag-ro-mobil" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                            <span  class="flag-bar">/</span>
+                            <img id="flag-en-mobil" src="./images/Rectangle 30.png" alt="fleg-e" data-lang="en" />
+                        </div>
+            </li>
+                 
+
+
+                </ul>
+                 <div class="buttons">
+                    <img id="flag-ro" src="./images/image 1 (1).png" alt="fleg-r" data-lang="ro" />
+                    <span class="flag-bar">/</span>
+                    <img
+                        id="flag-en"
+                        src="./images/Rectangle 30.png"
+                        alt="fleg-e"
+                        data-lang="en"
+                    />
+                </div> 
+            </nav>
+        </header>
+
+        <div class="content ro">
+            <a href="./horeca.html"></a>
+        </div>
+
+        <div class="content en" style="display: none;">
+            <a href="./versiunea-engleza/horeca-engleza.html"></a>
+        </div>
+
+        <section class="hero-section-transport">
+            <div class="transport">
+                <h3 style="margin-left:15px;">Horeca</h3>
+                <span><img id="line-domenii-horeca"src="./images/Line 8.png" style="width: 60px; height: 2px; margin-bottom: 24px"></span>
+            </div>
+        </section>
+
+        <section class="hero-section">
+            <div class="hero">
+                <img  src="./images/articole/Rectangle 12.png" alt="poza-1" >
+            </div>
+        </section>
+
+        <section class="hero-section-text">
+            <div class="hero">
+                <p>
+                    În lumea ospitalității, unde detaliile fine fac diferența între o experiență obișnuită și una memorabilă, mirosul devine un element esențial în design-ul hotelurilor și atmosfera restaurantelor. Calitatea incontestabilă a design-ului, serviciului impecabil și mâncărurilor excepționale nu mai sunt suficiente pentru a asigura loialitatea consumatorilor, dacă nu sunt însoțite de un miros plăcut.
+                    Simțul olfactiv, antrenat involuntar, reprezintă un instrument subtil, dar puternic în crearea unei ambiante invitante. Oamenii pot detecta un miros specific încă de la o concentrație de o particulă de miros la 500 de milioane de particule de aer, ceea ce subliniază influența semnificativă pe care mirosul o poate avea asupra experienței clienților.
+                    Utilizarea unui parfum personalizat pentru hoteluri și restaurante nu doar că va conferi unicitate spațiului, ci va crea și o atmosferă plăcută și familiară. Acest aspect, în mod subtil, îi va determina pe consumatori să revină, amintindu-le de stările plăcute asociate cu locația respectivă. Studiile indică faptul că oaspeții relaxați petrec mai mult timp în astfel de locuri, ceea ce evidențiază că mirosul nu doar adaugă la experiență, ci poate genera și profit, reprezentând un avantaj competitiv semnificativ pentru hoteluri și restaurante.
+                </p> 
+            </div>
+        </section>
+    </div>
+    <!--footer-->
+
+    <footer>
+        <img class="logo" src="./images/Logo (1).png" alt="Logo CasaParfumurilor"> 
+        <p class="footer-copy">&copy; 2024 CasaParfumurilor, Inc.</p>
+        <a style="text-decoration: none;" href="./cookie.html"><p class="footer-text">Politica de  cookie-uri</p></a>
+    </footer>
+
+    <script  >
+   document.getElementById("flag-ro").addEventListener("click", function () {
+  window.location.href = "./horeca.html";
+});
+
+document.getElementById("flag-en").addEventListener("click", function () {
+  window.location.href = "./versiunea-engleza/horeca-engleza.html";
+});
+  </script>
+
+
+<script  >
+    document.getElementById("flag-ro-mobil").addEventListener("click", function () {
+   window.location.href = "./horeca.html";
+ });
+ 
+ document.getElementById("flag-en-mobil").addEventListener("click", function () {
+   window.location.href = "../versiunea-engleza/horeca-engleza.html";
+ });
+   </script>
+  
+</body>
+</html>
